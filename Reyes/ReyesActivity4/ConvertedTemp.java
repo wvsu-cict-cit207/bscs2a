@@ -17,7 +17,7 @@ public class ConvertedTemp {
                 break;
             case 2:
                 System.out.print("Enter value: ");
-                double f = in.nextFloat();
+                double f = in.nextDouble();
                 double c = (( 5 *(f - 32.0)) / 9.0);
                 System.out.print(f + " degress Farenheit = " + c + " degrees Celsius" + "\n");
                 break;
