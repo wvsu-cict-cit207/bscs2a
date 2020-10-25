@@ -11,11 +11,8 @@ package activity1;
  */
 public class Activity1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args)
+    {
         int number = 10;
         char letter = 'a';
         boolean result = true;
