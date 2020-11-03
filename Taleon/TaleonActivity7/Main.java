@@ -20,7 +20,7 @@ public class Main
     		Collections.sort(values);
     	
     		//Output
-    		System.out.println("Largest Element: " + values.get(0));
-    		System.out.println("Smallest Element: " + values.get(values.size()-1));
+    		System.out.println("Smallest Element: " + values.get(0));
+    		System.out.println("Largest Element: " + values.get(values.size()-1));
 	}
 }
