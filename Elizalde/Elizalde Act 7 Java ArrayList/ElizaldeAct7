@@ -16,9 +16,7 @@ public class ElizaldeAct7 {
             array.add(input.nextInt());
         }
         
-        //Max and Min
-        int max = array.get(0);
-        int min = array.get(0);        
+        //Max and Min        
         Collections.sort(array);
         System.out.println("Largest Element: "+array.get(x-1));
         System.out.println("Smallest Element: "+array.get(0));
