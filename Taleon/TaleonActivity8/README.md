@@ -22,7 +22,7 @@ public boolean endsWith(String suffix)
 ```
 **Sample Usage:**
 ```java
-String strValue = "yo maboi"; //instantiation
+String strValue = "yo maboi";
 System.out.println(strValue.endsWith("boi"));
 
 //Outputs true
