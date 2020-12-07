@@ -28,7 +28,8 @@ System.out.println(strValue.endsWith("boi"));
 //Outputs true
 ```
 <hr>
-2. Look for the method that determines the character representation for a specific digit
+
+2\. Look for the method that determines the character representation for a specific digit
 in the specified radix. For example, if the input digit is 15, and the radix is 16, the
 method would return the character F, since F is the hexadecimal representation for
 the number 15 (base 10).
@@ -46,7 +47,8 @@ System.out.println(charValue);
 //Outputs f
 ```
 <hr>
-3. Look for the method that terminates the currently running Java Virtual Machine.
+
+3\. Look for the method that terminates the currently running Java Virtual Machine.
 
 **Class:** System<br>
 **Method Declaration:**
@@ -60,7 +62,8 @@ System.exit(-1)
 //Outputs Command exited with non-zero status 255
 ``` 
 <hr>
-4.  Look for the method that gets the floor of a double value. For example, if I input a
+
+4\.  Look for the method that gets the floor of a double value. For example, if I input a
 3.13, the method should return the value 3.
 
 **Class:** Math<br>
@@ -76,7 +79,8 @@ System.out.println(flooredDouble);
 //Outputs 3
 ``` 
 <hr>
-5. Look for the method that determines if a certain character is a digit. For example, if I
+
+5\. Look for the method that determines if a certain character is a digit. For example, if I
 input '3', it returns the value true.
 
 **Class:** Character<br>
@@ -93,6 +97,6 @@ System.out.println(isDigitVal);
 ``` 
 <hr>
 
-> Submitted by **Carlo Antonio T. Taleon**
-> BSCS-2A-AI
->  10:50pm December 7, 2020
+> Submitted by **Carlo Antonio T. Taleon**<br>
+> BSCS-2A-AI<br>
+>  10:50pm December 7, 2020<br>
