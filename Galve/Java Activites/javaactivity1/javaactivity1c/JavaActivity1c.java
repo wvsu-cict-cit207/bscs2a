@@ -1,19 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package javaactivity1c;
 
-/**
- *
- * @author ACER
- */
 public class JavaActivity1c {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         
@@ -29,12 +17,7 @@ public class JavaActivity1c {
         System.out.println("number 2: "+num2);
         System.out.println("number 3: "+num3);
         System.out.println("The highest number is "+highestNum);
-
-
-                
-         
-                
-              
+        
     }
 
     public static boolean num3(int i) {
