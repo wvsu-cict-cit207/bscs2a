@@ -1,37 +1,39 @@
 package javaactivity7;
-
-import java.util.Scanner;
-
+import java.util.*;
 public class JavaActivity7 {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input number of elements in the array:");
-
-        int min, max;
-        int n = sc.nextInt();
-        int num[] = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            System.out.print("Input the element" + (i+1) + ": ");
-            num[i] = sc.nextInt();
-
+        ArrayList<Integer> numList = new ArrayList<Integer>();
+        
+        System.out.print("Input number of elements in the array: ");
+        int size = sc.nextInt();
+        
+        System.out.println("Enter " + size + " numbers.");
+        for(int i = 0; i < size; i++){
+            System.out.print("");
+            int digit = sc.nextInt();
+            numList.add(digit);
+            
         }
-        min = num[0];
-        max = num[0];
-
-        for (int i = 0; i < n; i++) {
-            if (min > num[i]) {
-                min= num[i];
-                
-
-            }
-            if (max < num[i]) {
-                max = num[i];
-
+        System.out.println("Largest element: " + max(numList));
+        System.out.println("Smallest element: " + min(numList));
+    }
+    public static int min(ArrayList<Integer> list){
+        int min = list.get(0);
+        for(int a = 0; a < list.size(); a++){
+            if(list.get(a) < min){
+                min = list.get(a);
             }
         }
-        System.out.print("\n The smallest number is: " + min);
-        System.out.print("\n The largest number is: " + max);
+        return min;
+    }
+    public static int max(ArrayList<Integer> list){
+        int max = 0;
+        for(int a = 0; a < list.size(); a++){
+            if(list.get(a) > max){
+                max = list.get(a);
+            }
+        }
+        return max;
     }
 }
