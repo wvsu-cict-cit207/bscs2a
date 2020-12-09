@@ -1,7 +1,5 @@
 package javaactivity1b;
-
 public class JavaActivity1b {
-
     public static void main(String[] args) {
        
         int num1, num2, num3, Average;
@@ -12,8 +10,6 @@ public class JavaActivity1b {
        
        Average = (num1+num2+num3)/3;
        System.out.println("Average:"+Average);
-  
-        
-    }
     
+    }  
 }
