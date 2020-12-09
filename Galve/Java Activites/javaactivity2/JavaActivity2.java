@@ -24,9 +24,7 @@ import java.util.Scanner;
         System.out.println("diffrence: "+difference);
         System.out.println("quotient: "+quotient);
         System.out.println("remainder: "+remainder);
-        
-        
-        
+           
     }  
     
 }
