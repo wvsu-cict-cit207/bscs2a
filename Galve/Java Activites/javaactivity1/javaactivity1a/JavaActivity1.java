@@ -1,15 +1,11 @@
-
 package javaactivity1;
-
-public class JavaActivity1 {
-    
+public class JavaActivity1 { 
     public static void main(String[] args) {
         // TODO code application logic here
         int Number; 
         char letter;
         boolean result;
         String word;
-        
         
         Number = 10;
         letter = 'a';
@@ -20,9 +16,7 @@ public class JavaActivity1 {
         System.out.printf("letter=%c\n",letter);
         System.out.printf("result=%b\n",result);
         System.out.printf("str=%s\n",word);
-        
-        
-       
+         
     }
     
 }
