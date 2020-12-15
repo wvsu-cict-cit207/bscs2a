@@ -167,13 +167,13 @@ public class Arithmetics extends javax.swing.JFrame {
     }
 
     private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {
-        int n1, n2, ans;
+        float n1, n2, ans;
         try {
-            n1 = Integer.parseInt(num1.getText());
-            n2 = Integer.parseInt(num2.getText());
+            n1 = Float.parseFloat(num1.getText());
+            n2 = Float.parseFloat(num2.getText());
             
             ans = n1 + n2;
-            result.setText(Integer.toString(ans));
+            result.setText(Float.toString(ans));
                    
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, "The number you have entered is invalid");
@@ -181,13 +181,13 @@ public class Arithmetics extends javax.swing.JFrame {
     }//GEN-LAST:event_addButtonActionPerformed
 
     private void mulButtonActionPerformed(java.awt.event.ActionEvent evt) {
-        int n1, n2, ans;
+        float n1, n2, ans;
         try {
-            n1 = Integer.parseInt(num1.getText());
-            n2 = Integer.parseInt(num2.getText());
+            n1 = Float.parseFloat(num1.getText());
+            n2 = Float.parseFloat(num2.getText());
             
             ans = n1 * n2;
-            result.setText(Integer.toString(ans));
+            result.setText(Float.toString(ans));
                    
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, "The number you have entered is invalid");
@@ -195,13 +195,13 @@ public class Arithmetics extends javax.swing.JFrame {
     }
 
     private void remButtonActionPerformed(java.awt.event.ActionEvent evt) {
-       int n1, n2, ans;
+        float n1, n2, ans;
         try {
-            n1 = Integer.parseInt(num1.getText());
-            n2 = Integer.parseInt(num2.getText());
+            n1 = Float.parseFloat(num1.getText());
+            n2 = Float.parseFloat(num2.getText());
             
             ans = n1 % n2;
-            result.setText(Integer.toString(ans));
+            result.setText(Float.toString(ans));
                    
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, "The number you have entered is invalid");
@@ -211,16 +211,17 @@ public class Arithmetics extends javax.swing.JFrame {
     private void clearButtonActionPerformed(java.awt.event.ActionEvent evt) {
         num1.setText("");
         num2.setText("");
+        result.setText("");
     }
 
     private void divButtonActionPerformed(java.awt.event.ActionEvent evt) {
-       int n1, n2, ans;
+       float n1, n2, ans;
         try {
-            n1 = Integer.parseInt(num1.getText());
-            n2 = Integer.parseInt(num2.getText());
+            n1 = Float.parseFloat(num1.getText());
+            n2 = Float.parseFloat(num2.getText());
             
             ans = n1 / n2;
-            result.setText(Integer.toString(ans));
+            result.setText(Float.toString(ans));
                    
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, "The number you have entered is invalid");
@@ -228,13 +229,13 @@ public class Arithmetics extends javax.swing.JFrame {
     }
 
     private void subButtonActionPerformed(java.awt.event.ActionEvent evt) {
-        int n1, n2, ans;
+        float n1, n2, ans;
         try {
-            n1 = Integer.parseInt(num1.getText());
-            n2 = Integer.parseInt(num2.getText());
+            n1 = Float.parseFloat(num1.getText());
+            n2 = Float.parseFloat(num2.getText());
             
             ans = n1 - n2;
-            result.setText(Integer.toString(ans));
+            result.setText(Float.toString(ans));
                    
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, "The number you have entered is invalid");
