@@ -1,0 +1,19 @@
+Jirah Kate Solano BSCS 2A
+
+9.6.1
+In your own words. Define the following terms:
+1. Class - Classes are templates to create objects used in object-oriented programming.
+2. Object - An object is a particular class instance; instead of variable, it contains real value.
+3. Instantiate - Instantiate in Java means to call the constructor of a class that generates
+		 an instance or object of the type of class.
+4. Instance Variable - Instance variables are specified within a class, but outside of any method,
+		       so they are global in scope for any class instance.
+5. Instance Method - Instance method are methods which will need an object of its class to be
+		     created before it can be called.
+6. Class Variables or Static member variables - A static variable is common to all the 
+						instances (or objects) of the class 
+						because it is a class level variable.
+						it is also known as Class Variables.
+						
+7. Constructor - A constructor in Java is a special way that is used to initialize objects.
+		 When an object of a class is created the constructor is called.
