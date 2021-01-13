@@ -1,0 +1,59 @@
+Glecy S. Elizalde
+Activity 8
+Exercise 9.6
+9.6.2 Java Scavenger Hunt
+Now let's start the search!
+1. Look for a method that checks if a certain String ends with a certain suffix. For
+example, if the given string is "Hello", the method should return true the suffix given
+is "lo", and false if the given suffix is "alp".
+
+Class: String
+Method Declaration:
+public boolean endsWith(String suffix)
+
+Sample Usage:
+String myStr = "Hello";
+System.out.println(myStr.endsWith("lo"));
+
+
+2. Look for the method that determines the character representation for a specific digit
+in the specified radix. For example, if the input digit is 15, and the radix is 16, the
+method would return the character F, since F is the hexadecimal representation for
+the number 15 (base 10).
+
+Class: Character
+Method Declaration:
+public static char forDigit(int digit, int radix)  
+Sample Usage:
+char myChar = Character.forDigit(15, 16);
+System.out.println(myChar);
+
+3. Look for the method that terminates the currently running Java Virtual Machine
+
+Class: Runtime
+Method Declaration:
+public void halt(int status)
+Sample Usage:
+System.out.println("Program starting...");
+Runtime.getRuntime().halt(0);
+System.out.println("Process is still running.");
+
+4. Look for the method that gets the floor of a double value. For example, if I input a 3.13, the method should return the value 3.
+
+Class: Math
+Method Declaration:
+public static double floor(double d)
+Sample Usage:
+double d = 3.13;
+System.out.println(Math.floor(d));
+
+5. Look for the method that determines if a certain character is a digit. For example, if I
+input '3', it returns the value true.
+
+Class: Character
+Method Declaration:
+public static boolean isDigit(int codePoint)
+Sample Usage:
+int codepoint = 3;
+boolean check = Character.isDigit(codepoint);
+System.out.println(check);
