@@ -23,32 +23,32 @@ class Circle extends Shape {
         return "Circle";
     }
 }
-//Triangle
-class Triangle extends Shape {
-    double base;
-    double height;
+//Square
+class Square extends Shape {
+    double length;
+    double width;
     
     public Triangle(double base, double height) {
-        this.base = base;
-        this.height = height;
+        this.length = length;
+        this.width = width;
     }
     
     @Override
     public double getArea() {
-        return (base * height) / 2;
+        return length * width;
     }
     
     @Override
     public String getName() {
-        return "Triangle";
+        return "Square";
     }
 }
 
 public class Main {
     public static void main(String[] args) {
         Circle c = new Circle(5);
-        Triangle t = new Triangle(2, 2);
+        Square s = new Square(2, 2);
         System.out.println(c.getName() + " Area: " + c.getArea());
-        System.out.println(t.getName() + " Area: " + t.getArea());
+        System.out.println(s.getName() + " Area: " + s.getArea());
     }
 }
