@@ -28,7 +28,7 @@ class Square extends Shape {
     double length;
     double width;
     
-    public Triangle(double base, double height) {
+    public Square(double length, double width) {
         this.length = length;
         this.width = width;
     }
