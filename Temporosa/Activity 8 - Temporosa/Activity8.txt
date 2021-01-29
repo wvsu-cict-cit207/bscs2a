@@ -1,0 +1,62 @@
+9.6 Exercises
+9.6.1
+
+In your own, define the following terms:
+1. Class - basically class acts as an object's blueprint.
+It has all the information required (variables, methods,
+constructors) the object should have. 
+
+2. Object - the object is the finished product
+or the output of the class that we created. 
+
+3. Instantiate - in simple terms, it means to create a
+new object using a class, or to create an instance of a 
+class.
+
+4. Instance Variable - declared inside class but not inside method
+
+5. Instance Method - method defined in a class which is only
+accessible through the object created
+
+6. Class Variable or static member variables - they are shared, they
+belong to the class not on the objects. for example, if an object
+modifies a static variable, all objects of the same class are
+affected.
+
+7. Constructor - it is called when an object or instance is created
+
+
+9.6.2 Java Scavenger Hunt
+
+1.Class: String
+Method Declaration: public boolean endsWith (String suffix)
+Sample Usage: 
+String str1 = new String ("hello");
+
+boolean check1 = str1.endsWith("lo");
+boolean check2 = str1.endsWith("alp")
+
+
+2.Class: Character
+Method Declaration: public static char forDigit(int digit, int radix)
+Sample Usage: 
+char ch = Character.forDigit(15,16);
+System.out.print(ch);
+
+3.Class: Runtime
+Method Declaration: public void exit(int status)
+Sample Usage: Sysout("Exiting...")
+Runtime.getRuntime().exit(0);
+
+
+4. Class: Math
+Method Declaration: public static double floor(double a)
+Sample Usage: 
+double x = 3.13;
+System.out.print(Math.floor(x));
+
+
+5. Class: Character
+Method Declaration: public static boolean isDigit(char ch)
+Sample Usage: 
+System.out.print(Character.isDigit('3'));
