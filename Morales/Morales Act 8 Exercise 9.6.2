@@ -1,0 +1,56 @@
+9.6.2Now let's start the search!
+1. Look for a method that checks if a certain String ends with a certain suffix. For
+example, if the given string is "Hello", the method should return true the suffix given
+is "lo", and false if the given suffix is "alp".
+
+Class: String
+Method Declaration: Public endsWith(String suffix) 
+Sample Usage:
+    String Str = new String("This is really not immutable!!");
+      boolean retVal;
+
+      retVal = Str.endsWith( "immutable!!" );
+      System.out.println("Returned Value = " + retVal );
+
+      retVal = Str.endsWith( "immu" );
+      System.out.println("Returned Value = " + retVal );
+
+2. Look for the method that determines the character representation for a specific digit
+in the specified radix. For example, if the input digit is 15, and the radix is 16, the
+method would return the character F, since F is the hexadecimal representation for
+the number 15 (base 10).
+
+Class: Character
+Method Declaration: public static char forDigit(int digit, int radix)
+Sample Usage:
+    char ch = Character.forDigit(10, 26);
+    System.out.println(ch);
+
+3. Look for the method that terminates the currently running Java Virtual Machine
+
+Class: Runtime
+Method Declaration: public void exit(int status)
+Sample Usage:
+      System.out.println("Program starting...");
+      Runtime.getRuntime().exit(0);
+      System.out.println("Program still running...");
+
+
+4. Look for the method that gets the floor of a double value. For example, if I input a
+3.13, the method should return the value 3.
+
+Class: Math
+Method Declaration: public static double floor(double d)
+Sample Usage:
+              double d = -100.675;
+              System.out.println(Math.floor(d)); 
+              System.out.println(Math.ceil(d));
+              
+5. Look for the method that determines if a certain character is a digit. For example, if I
+input '3', it returns the value true.
+
+Class: Character
+Method Declaration: public static boolean isDigit(int codePoint) 
+Sample Usage: 
+          System.out.println(Character.isDigit('c'));
+          System.out.println(Character.isDigit('5'));
