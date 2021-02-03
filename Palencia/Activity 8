@@ -1,0 +1,42 @@
+9.6 Exercises
+9.6.1 Defining terms 
+
+In your own words, define the following terms:
+1. Class- a set of instructions to build a specific type of object. It is a basic concept of Object-Oriented Programming 
+which revolves around the real-life entities. Class in Java determines how an object will behave and what the object will contain.
+2. Object- an instance of the class. An object in OOPs is a self-contained component consists of methods and properties to 
+make particular type of data useful.
+3. Instantiate- means to call a constructor of a Class which creates an instance or object, of the type of that Class.
+4. Instance variables are variables within a class but outside any method. These variables are initialized when the class 
+is instantiated. Instance variables can be accessed from inside any method, constructor or blocks of that particular class. 
+5. Instance Method reference refers to an instance method of any class. In the below example, we can implement an instance 
+methods reference using the class name.
+6. Class Variables or static member variables are declared with the static keyword in a class, but outside a method, constructor or a block.
+7. Constructor -initializes an object when it is created. It has the same name as its class and is syntactically similar to a method. 
+However, constructors have no explicit return type.
+
+9.6.2 Java Scavenger Hunt
+1). Class: String
+Method Declaration: public boolean endsWith(String suffix)
+Sample Usage:
+String str = “Hello”;
+System.out.println(str.endsWith(“Hello”));
+2).  Class: Character
+Method Declaration: public static char getDigit(int digit, int radix)
+Sample Usage:
+Char digitNum = Character.getDigit(15, 16);
+System.out.println(digitNum);
+3). Class: Runtime
+Method Declaration: public static void exit (int status)
+Sample Usage: 
+System.exit(0);
+4). Class: Double
+Method Declaration: public static double floor(double a)
+Sample Usage:
+double value = Math.floor (3.13);
+System.out.println(value);
+5). Class: Character
+Method Declaration: public static boolean isDigit(char ch)
+Sample Usage: 
+Boolean ch = Character.isDigit(‘3’);
+System.out.println(ch);
