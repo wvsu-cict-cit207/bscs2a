@@ -83,6 +83,6 @@ System.out.println(isDigitVal);
 ```
 <hr>
 
-Submitted by: Joshreen Reyes :rabbit:<br> 
-BSCS - 2A HPC<br> 
-Date Submitted: December 8, 2020
+Submitted by: Zhyray Remigio 
+BSCS - 2A AI<br> 
+
